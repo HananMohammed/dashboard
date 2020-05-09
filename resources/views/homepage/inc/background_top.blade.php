@@ -1,0 +1,2 @@
+<div class=" advantages-background " style="background-image: url({{URL::asset('public/images/aboutus/navigationbar-bg.png')}});background-size: 100% 100%; background-repeat: no-repeat;/* background-position: 0% 0%;*/">
+</div>

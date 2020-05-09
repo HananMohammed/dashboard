@@ -1,0 +1,45 @@
+<?php
+return[
+    'individual'=>'Individual Forms',
+    'company' =>'Please fill this form',
+    'sure'=>'Please make sure the data you enter is correct so we can contact you as soon as possible and complete the purchase',
+    'company2'=>'Companies',
+    'individual2'=>'Individual',
+    'government' =>'Government Forms',
+    'choose'=>'choose a finance transition',
+    'cash'=>'Cash',
+    'finance'=>'Finance',
+    'name'=>'name',
+    'Details'=>'Details',
+    'details'=>'Details',
+    'forms'=>'Forms',
+    'message'=>'Message',
+    'car_name'=>'Car Name',
+    'work_selector'=>'Work Selector',
+    'salary_transferring_bank'=>'Salary Transferring Bank',
+    'select_monthly_obligations'=>' Monthly Obligations',
+    'years_of_experience'=>'Years Of Experience',
+    'monthly_salary'=>'Monthly Salary',
+    'total_monthly_obligations'=>'Total Monthly Obligations',
+    //placeholder for inputs
+    #company form
+    'company_name'=>'Company Name',
+    'city'=>'City',
+    'company_activity'=>'Company Activity',
+    'age_of_company'=>'Age Of Company',
+    'dealing_banks'=>'Dealing Banks',
+    'responsible_person_name'=>'Responsible Person Name',
+    'phone'=>'phone',
+    'email'=>'email',
+    'type'=>'type',
+    'commercial_registration_no'=>'Commercial Registration Number',
+    #indivadial form
+    'nationality'=>'Nationality',
+    'text'=>'Message',
+    'your_name'=>'your name',
+    'minimum_price'=>"minimum price 20,000 SAR",
+    #goverment form
+    'sector_name'=>'Sector Name',
+    'person_name'=>'Person Name',
+]
+?>

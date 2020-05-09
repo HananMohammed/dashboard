@@ -1,0 +1,127 @@
+/*images flip*/
+.about-us img , .carousel-item img{transform: scaleX(-1);}
+body {text-align: right}
+
+/*start of navbar*/
+ul.ml-auto {margin-right: auto; margin-left: 0 !important;}
+/*********************/
+
+/*start of header*/
+.carousel-caption  {left: 0 !important; right: 10%;}
+.carousel-indicators {left: 0%;right: 0%;margin: 0 auto;}
+.carousel-caption > div h1{ letter-spacing: 0 !important;}
+.carousel-caption {  text-align: right !important;}
+/*********************************/
+
+/*start of filter cars section */
+.dropdown-toggle::after {margin-right: 30px; margin-right: 0 !important}
+/*********************************/
+/*services section */
+.owl-carousel, .bx-wrapper { direction: ltr; }
+.owl-carousel .owl-item  , .owl-stage{ direction: rtl; }
+/*********************************/
+/*start of about us section*/
+.tab-content  {text-align: right;}
+.about-us-btn {text-align: right;}
+/*single features page*/
+.explain {text-align: right;}
+.single-contact-data {justify-content: start !important;}
+.single-contact-data {width: 80% !important; margin-right: auto !important;}
+/*purchase section*/
+.products .navgation {text-align: right;}
+.productTitle {text-align: right;}
+/*start of about us page*/
+.single-contact-data
+{
+    justify-content: start !important;
+    margin-right: auto !important;
+}
+.single-contact-btn {margin-left:0 !important; margin-right: 15px; }
+/*contact us section*/
+.contact-text i {margin-right: 0px !important; margin-left: 20px;}
+.contact-details .col-md-3{text-align: center;}
+/*footer*/
+footer {text-align: right !important;}
+.footerData ul li { direction: ltr;}
+.footerData ul li .hide-foot {display: inline !important; margin-left: 5px;}
+.footerData ul li .hide-foot2 {display: none;}
+.footerRights .row {direction: ltr;}
+/*single purchase page*/
+.overview-info , .products-list {text-align: right !important;}
+/*forms page*/
+#transitionText {text-align: right;}
+#allForms .nav-tabs .nav-item {font-size: 17px;}
+#allForms .pad-fix .col-md-7:nth-child(odd) , .select-gutter .col-md-6:nth-child(odd) {padding-left: 15px !important;padding-right: 0;}
+#allForms .pad-fix .col-lg-4:nth-child(even), .select-gutter .col-md-6:nth-child(even)  {padding-right: 15px !important; padding-left: 0;}
+/*single about us page*/
+.contact-navigation > .container {text-align: right;}
+.advantagesTitle h3:after {width: 33% !important;}
+/*single gallery data */
+.dat{text-algin: left !important;}
+.content-text-add , .contact-text-data{
+    text-align: right;
+}
+
+/*start of media query*/
+/*laptop*/
+@media only screen and (max-width: 1025px)
+{
+}
+/*tablet*/
+@media only screen and (max-width: 769px)
+{
+    /*filter cars*/
+    .filterCars .allCars a {padding: 9px 25px !important;}
+    /*about us section*/
+    .about-us-btn {text-align: center;}
+    /*form page*/
+    #allForms .pad-fix .col-md-7:nth-child(odd), .select-gutter .col-md-6:nth-child(odd) {padding-left: 0;}
+    #allForms .pad-fix .col-lg-4:nth-child(even), .select-gutter .col-md-6:nth-child(even) {padding-right: 0;}
+    .single-contact-text h3 {font-size: 16px;}
+    single-contact-text h6 {font-size: 14px;}
+    .single-contact-data {width: 90% !important;}
+}
+
+/*mobil large*/
+@media only screen and (max-width: 426px)
+{
+    /*filter cars*/
+    .filterCars .allCars a {padding: 8px 25px !important; font-size: 13px;}
+    /*contact us */
+    .contact-text i {
+        margin-right: 0px !important;
+        margin-left: 20px;
+    }
+    /*single purchase page*/
+    .products-list {    text-align: center !important;}
+    /*form page*/
+    #allForms .nav-tabs .nav-item {font-size: 12px;}
+    .single-contact-text h3 {font-size: 14px;}
+    single-contact-text h6 {font-size: 12px;}
+    .single-contact-data {width: 97% !important;}
+    .advantagesTitle h3 {font-size: 21px;}
+}
+
+/*mobil medium*/
+@media only screen and (max-width: 376px)
+{
+    /*filter cars*/
+    .filterCars .allCars a {font-size: 11px;}
+    /*contact us section*/
+    .contact-text i {font-size: 30px; margin-right: 0px !important; margin-left: 15px;}
+    /*form page*/
+    #allForms .nav-tabs .nav-item {font-size: 9px;}
+    .inside-finance label:last-child {
+        margin-right: 6px;
+        margin-left: 10px !important;
+        font-size: 12px;}
+}
+
+/*mobil small*/
+@media only screen and (max-width: 321px)
+{
+    /*filter cars*/
+    .filterCars .allCars a {padding: 7px 15px !important;}
+    /*about us section*/
+    .social ul li {padding-right: 10px; padding-left: 0 !important;}
+}

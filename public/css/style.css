@@ -1,0 +1,626 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body { font-family: 'Tajawal', sans-serif;}
+a , a:hover{ text-decoration: none; color: #fff;cursor: pointer;}
+html {scroll-behavior: smooth; overflow-x: hidden;}
+/********************/
+.col-md-6 , .col-sm-12 , input , textarea , .col-lg-4 , .col-md-5 , .form-control , .btn{border-radius: 0 !important;}
+    /*buttons animation*/
+a.type1 , input.type1{
+    position: relative;
+    border: none;
+    outline: none;
+    background-color: #CE0638;
+    transition: 0.5s;
+    overflow: hidden;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+}
+a.type1:hover , input.type1:hover  {background-color: #fff;color: #CE0638;}
+/*a.type1::after, a.type1::before , input.type1:after , input.type1:before{*/
+/*    content: "";*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    width: 20%;*/
+/*    height: 50%;*/
+/*    border: 2px solid;*/
+/*    transition: all 0.6s ease;*/
+/*}*/
+/*a.type1::after , input.type1:after*/
+/*{*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    border-top-color: transparent;*/
+/*    border-left-color: transparent;*/
+/*    border-bottom-color: #fff;*/
+/*    border-right-color: #fff;*/
+/*}*/
+/*a.type1::before , input.type1:before*/
+/*{*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    border-bottom-color: transparent;*/
+/*    border-right-color: transparent;*/
+/*    border-top-color: #fff;*/
+/*    border-left-color: #fff;*/
+/*}*/
+/*a.type1:hover:after , input.type1:hover:after*/
+/*{*/
+/*    width: 101%;*/
+/*    height: 101%;*/
+/*    border-top-color: transparent;*/
+/*    border-left-color: transparent;*/
+/*    border-bottom-color: #CE0638;*/
+/*    border-right-color: #CE0638;*/
+/*}*/
+/*a.type1:hover:before , input.type1:hover:before*/
+/*{*/
+/*    width: 101%;*/
+/*    height: 101%;*/
+/*    border-bottom-color: transparent;*/
+/*    border-right-color: transparent;*/
+/*    border-top-color: #CE0638;*/
+/*    border-left-color: #CE0638;*/
+/*}*/
+/*****************/
+/*local at footer and about us sections*/
+.social {width: 65%; margin: 0 auto}
+.social {   font-size: 2rem;}
+.social ul li a {transition: all ease 0.5s;}
+.social ul li a:hover i {transform: scale(1.1);}
+.social ul li:nth-child(1):hover a  {color: #17f;}
+.social ul li:nth-child(2):hover a  { color:#E1306C;}
+.social ul li:nth-child(3):hover a  {color: #1af;}
+.social ul li:nth-child(4):hover a  {color: #ff0;}
+.social ul li:nth-child(4)  a  i    { font-weight: 800;}
+.social ul li:nth-child(5):hover a  {color: #4c5;}
+.about-social li a {color: rgba(0, 0, 0, 0.38)}
+/*****************/
+
+/*start of navbar*/
+nav {background-color: #fff;}
+.navbar .nav-item  {font-size : 18px;}
+.navbar .nav-item a {color: #000; font-weight: 600; }
+.navbar .nav-item a:active {color: #CE0638;}
+/*********************************/
+
+/*start of header*/
+.carousel-inner  {position: relative;}
+.carousel-item img {height: 100vh;}
+.carousel-caption
+{
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+.carousel-caption > div h1{letter-spacing: 20px; font-size: 49px;}
+.carousel-caption > div p{font-size: 19px;}
+.carousel-caption > div a{background-color: #CE0638;}
+.carousel-indicators li
+{
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    transition: all ease 0.5s;
+}
+.carousel-indicators .active
+{
+    opacity: 1;
+    height: 15px;
+    width: 15px;
+    background-color: #CE0638;
+}
+/*********************************/
+
+/*start of filter cars section */
+.filterCars
+{
+    padding: 2% 0;
+    background-color: #242424;
+}
+.select-option select
+{
+    border-radius: 0;
+    background-color: transparent;
+    font-size: 16px;
+}
+.select-option select ,.select-option select option  {color: #fff;     width: 100%; }
+.select-option select option  {background-color: #242424;}
+.select-option select:active {border-color: #fff !important;}
+.allCars a {width: 100%;}
+/**********************************************************************************/
+
+/*start of about us section*/
+.about-us {background-color: #F3F3F3}
+.tab-pane
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+.about-us .nav-link
+{
+    color: #fff;
+    border: #CE0638;
+    transition: all ease 0.3s;
+    font-weight: 700;
+    cursor: pointer;
+    transition: color ease-in 0.5s;
+}
+.nav-tabs .nav-link.active
+{
+    color:#CE0638;
+   border-bottom: solid 2px #CE0638;
+    background-color: transparent;
+}
+.about-us-btn a:hover
+{
+    background-color: #fff;
+    color: #CE0638 !important;
+}
+.about-us-toggle .nav-link{
+    color: #474747;
+}
+/*soical icons top */
+/*************************************************************************/
+/*services section*/
+/*owl carousal car brands */
+.brand-logo {background-color: #FF0040;}
+.item {text-align: center;}
+.advantages .item img {width:100px; height: 100px; margin: auto;}
+.owl-dots {display: none;}
+/*services*/
+.advantagesTitle h4 {position: relative; font-weight: 300;}
+.advantagesTitle h4:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    border-bottom: solid 3px #CE0638;
+    left: 0;
+    right: 0;
+    width: 15%;
+    margin: 6px auto;
+}
+.advantagesData { padding: 30px 0px; height: 197px; margin: auto;}
+.advantagesText {color:#b10928; font-weight: 600;}
+#advantagesbtn {
+    border-radius: 0;
+    background-color: #b10928;
+    color: #fff;
+    transition: all ease 0.5s;
+    border: 0;
+}
+#advantagesbtn:hover
+{
+    background-color: #fff;
+    color:  #b10928;
+}
+/**************************************************************************/
+/*product section*/
+.productTitle
+{
+    color: #b10928;
+    text-transform: uppercase;
+}
+.navgation
+{
+    position: relative;
+}
+.arrows
+{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+.arrows a {
+    text-decoration: none;
+}
+.arrows a span
+{
+    padding: 8px;
+    background-color: #474747;
+    color: #fff;
+    margin:  0 5px;
+}
+/*product list*/
+.productList
+{
+    border-bottom: solid 3px #b10928;
+    padding-bottom: 4px;
+}
+.productList li
+{
+    display: inline;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+.productList .active {background-color: #b10928; color: #fff;}
+.productList li a
+{
+    text-decoration: none;
+    color: inherit;
+}
+/*product section*/
+.productData {position: relative;}
+/*product image*/
+.productImage {overflow: hidden;}
+.productImage > img
+{
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    width: 100%;
+    height: 200px;
+}
+.productImage:hover > img
+{
+    transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+}
+/*price overlay*/
+.priceOverlay
+{
+    position: absolute;
+    bottom: 28%;
+    background-color: #b10928;
+    padding: 5px 15px;
+    color: #dca800;
+}
+/*offer overlay*/
+.offerOverlay
+{
+    position: absolute;
+    top: 0;
+    right: 15%;
+    background-color: #ffcd27;
+    padding: 2px 10px;
+    text-transform:uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+/*product deatils*/
+.productDeatils ul  {background-color: #474747; padding: 15px 0; display: flex; justify-content: center; align-items: center;}
+.productDeatils ul li  {display: inline; padding: 0 5px; font-size: 17px;   border-right: solid 1px #b10928;}
+.productDeatils ul li:last-child {border:none; padding: 0 0px;}
+.productDeatils ul li a {text-decoration: none; color: #fff;}
+/*****************************************************************************/
+
+/*contact us section*/
+#contactUs > .container {width: 60%; margin:auto;}
+#contactUs .form-img .carousel-item img {height: auto; width: 100%;}
+.contact-text {align-items: start;     justify-content: center;}
+.contact-text i  , .contact-text div {display: inline;}
+.contact-text i {font-size: 40px; margin-right: 20px;}
+.contact-text-data p {margin-bottom: 0px;}
+.content-text-add {font-size:15px;}
+.form input.form-control , .form textarea.form-control {border-radius: 0 !important;}
+.form-title h2 {position: relative; font-weight: 300;}
+.form-title h2:after
+{
+    content: '';
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    width: 90%;
+    margin: auto;
+    border-bottom : solid 2px #b10928;
+}
+
+/*****************************************************************************/
+
+/*!*start of map section*!*/
+/*.map-img img{width: 100%;}*/
+/*!*****************************************************************************!*/
+
+/*footer*/
+footer {background-color: #232323;
+    color: #fff !important;}
+.footerData h3 {font-size: 26px;}
+.footerData ul li a , .footerData p{color: #6c757d;    font-size: 14px;}
+.footerData ul li .hide-foot {display: none !important; margin-left: 5px;}
+.footerData ul li .hide-foot {display: inline;}
+.footerRights {background-color: #191919;}
+/*subscribe*/
+.send-mail button {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+.send-mail button {border-radius: 0;}
+.send-mail button i {transition: all ease-in 0.3s}
+.send-mail button:hover i  {transform: translate(50px , -50px);}
+.footerRights p:first-child {font-weight: 300;letter-spacing: 3px;}
+.footerRights p , .footerRights p span {font-weight: 300; font-size: 15px;}
+    /**********************************************************************************/
+
+/*inner pages*/
+/**********************************************************************************/
+/*svg*/
+/*{*/
+/*    width: 112px !important;*/
+/*    height: 70px !important;*/
+/*}*/
+
+.subject-data{position: relative;}
+.contact-subject-overlay
+{
+    position: absolute;
+    top: 5%;
+    left: 15%;
+}
+.subject-img
+{
+    height: 193px;
+    overflow: hidden;
+}
+.subject-img picture img {transform: translateY(-314px);}
+.contact-subject-overlay h4  .contact-subject-overlay h2
+{
+    font-weight: 600;
+}
+.contact-navigation > .container {padding: 12% 0 0 0;}
+.contact-subject-overlay h4{color: #CE0638;}
+.single-contact-data {width: 85%;}
+.about-us svg
+{
+    transform: rotate(0deg);
+    transition: all ease-in 0.5s;
+}
+.about-us:hover svg  {transform: rotate(5deg) scale(1.1,1.1);}
+/*****************************************************************************/
+/*form page*/
+#allForms {background-color: #F3F3F3 !important; padding: 10% 0 0 0;}
+#allForms .nav-tabs  , .gallery-data  .nav-tabs , .car-products .nav-tabs {   border-bottom: solid 2px #CE0638; background-color: transparent;}
+#allForms .nav-tabs .nav-link , .gallery-data  .nav-tabs .nav-link , .car-products .nav-tabs .nav-link{   color: #000; border:none ;}
+#allForms .nav-tabs .nav-link.active , .gallery-data  .nav-tabs .nav-link.active , .car-products .nav-tabs .nav-link.active{background-color: #CE0638; color: #fff; border-radius: 0;}
+#allForms .nav-item input[type="radio"]  {display: none !important;}
+.nav-item label svg {width: 60px; height: 60px;}
+#allForms .nav-item label{position: relative;}
+#allForms .nav-item .new-radio
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid 2px #CE0638 ;
+    display: block;
+    position: absolute;
+    left: 108%;
+    top: 33%;
+}
+
+#allForms .nav-item .new-radio:after
+{
+    content: '';
+    height: 8px;
+    width:8px;
+    background-color: #CE0638;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    border-radius: 50%;
+    transition: 300ms ease-in-out 0s;
+}
+#allForms .nav-item input[type="radio"]:checked ~ .new-radio:after
+{
+    transform: translate(-50%,-50%) scale(1);
+}
+
+#formGovernment  .addbtn6 i {font-size: 25px; color: #7F7F7F;}
+#allForms .select-option select
+{
+    background-color: #D5D5D5;
+    color: #000;
+    border: none;
+
+}
+.added-btn i{font-size: 25px; color: #7F7F7F;}
+#allForms .pad-fix .col-md-7:nth-child(odd) , .select-gutter .col-md-6:nth-child(odd) {padding-left: 0;}
+#allForms .pad-fix .col-lg-4:nth-child(even), .select-gutter .col-md-6:nth-child(even)  {padding-right: 0;}
+.nav-item label , .nav-item input {cursor: pointer;}
+.hei {height: 80vh;}
+.car-gallery-title {background-color: #f3f3f3;
+    border: solid 1px #000;}
+a.btn.type1.car-gall {
+    padding: 12px 25px;
+}
+/*****************************************************************************/
+/*start of media query*/
+/*laptop*/
+@media only screen and (max-width: 1025px)
+{
+    /*navbar*/
+    .navbar .nav-item  {font-size : 16px;}
+    /*header*/
+    .carousel-caption {bottom: -20%;}
+    .carousel-caption > div h1 { font-size: 46px;}
+    .carousel-caption > div p{font-size: 16px;}
+    /*cars filter*/
+    .filterCars .allCars a {font-size: 15px;}
+    .filterCars .allCars a {padding: 9px 43px !important;}
+    /*about us section*/
+    .tab-content div {font-size: 15px;}
+    /*purchase*/
+    .productDeatils ul li  {font-size: 15px;}
+    /*contact us section*/
+    #contactUs > .container {width: 80%;}
+        /*all forms*/
+    #allForms .filterCars .allCars a {padding: 6px 14px !important;}
+    .subject-img picture img {
+        transform: translateY(-279px);
+    }
+}
+/********************************************************************************/
+/*tablet*/
+@media only screen and (max-width: 769px)
+{
+    /*navbar*/
+    .logo {width: 75%}
+    .navbar .nav-item  {font-size : 12px; padding-right: 0px !important;}
+    /*header*/
+    .carousel-caption > div h1 { font-size: 38px;}
+    .carousel-caption > div p{font-size: 14px;}
+    /*filter cars*/
+    .select-option select ,.select-option select option , .filterCars .allCars a {width: 100%;}
+    /*about us section*/
+    .tab-content div {font-size: 12px;}
+    /*.about-us-btn {text-align: center;}*/
+    .allCars a {width: auto;}
+    /*single purchase page*/
+    .productDeatils ul li {font-size:12px;}
+    .products-list .col-sm-6 {width: 50%;}
+    /*contact us section*/
+    #contactUs > .container {width: 100%;}
+    .contact-details { font-size: 14px; justify-content: space-between !important; text-align: center;}
+    .contact-text p ,   .contact-text a {font-size: 12px;}
+    /*footer*/
+    .footerRights p, .footerRights p span { font-size: 12px;}
+    .footerRights .social {font-size: 1.4rem;}
+    /*all products page*/
+    .filterCars .container {width: 100% !important; }
+    .subject-img picture img {    transform: translateY(-200px);}
+}
+/********************************************************************************/
+/*mobil large*/
+@media only screen and (max-width: 426px)
+{
+    /*navbar*/
+    .navbar {  padding: 0rem 1rem !important;}
+    .navbar-toggler {border: solid 1px #CE0638;}
+    .navbar .nav-item  {font-size : 20px; text-align: center;}
+    /*header*/
+    .w-50 {width: 80%!important;}
+    .carousel-caption > div h1 { font-size: 30px; letter-spacing: 15px;}
+    .carousel-caption > div p , .carousel-caption > div a{font-size: 12px;}
+    /*.carousel-indicators li {padding: 4px;}*/
+    /*.carousel-indicators .active {padding: 6px;}*/
+    /*cars filter*/
+    .filterCars .row > .col-sm-6  {width: 50% !important;}
+    .filterCars .allCars a {padding: 8px 38px !important;}
+    /*about us section*/
+    .nav-tabs .nav-item {font-size: 14px;}
+    .about-us-btn a {padding: 5px 25px;}
+    /*contactus*/
+    #contactUs {padding-top: 0 !important;}
+    #contactUs > .container {width: 100%; margin:auto;}
+    .formData .form{margin-bottom: 5%;}
+    .contact-details .col-sm-6{width: 50%; text-align: center;padding: 0;}
+    .contact-text i {margin :0 15px 0 0;display: block;}
+    .contact-details .col-sm-6:last-child{width: 100%; text-align: center;}
+    .contact-text-data p {font-size: 12px;}
+    /*footer*/
+    .footerData h3 {font-size: 20px;}
+    footer .container .row  .col-md-3.col-sm-6  , footer .container .row .col-md-3.col-sm-6 {width: 50%;}
+    footer .col-md-4 {text-align: center;}
+    .footerRights  p {text-align: center; font-size: 11px;}
+    /*--*/
+    .advantages .row .col-sm-6
+    {width: 50% !important;}
+    /**/
+    .advantages1 {padding: 30% 0 0 0 !important;}
+    .advantagesTitle h4 {font-size : 20px;}
+    /*purchase*/
+    .productList li        {padding: 5px; font-size: 14px;}
+    .productDeatils ul     {padding: 10px 0;}
+    .productDeatils ul li  {font-size: 14px;}
+    /*price overlay*/
+    .priceOverlay
+    {
+        padding: 5px 15px;
+        font-size: 0.8rem;
+        bottom: 20%;
+    }
+    /*offer overlay*/
+    .offerOverlay
+    {
+        padding: 2px 10px;
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+    }
+
+    /*----*/
+    .com .col-lg-4 {padding: 0 15px !important;}
+    .com .col-md-7 {padding: 0 15px !important;}
+
+    /*all forms*/
+    .select-option select , #allForms .allCars a {width: 100% !important;}
+    .form-div {width: 50%;}
+    #allForms .pad-fix .col-md-7:nth-child(odd) , .select-gutter .col-md-6:nth-child(odd) ,.select-gutter .col-sm-12  {padding-left: auto;}
+    #allForms .pad-fix .col-lg-4:nth-child(even), .select-gutter .col-md-6:nth-child(even) , .government-gutter .col-sm-5:nth-child(even) {padding-right: auto;}
+    #allForms {padding: 20% 0 0 0 !important;}
+    #allForms    .nav-tabs .nav-item {font-size: 11px;}
+    #allForms h2 {font-size: 20px;}
+    /**/
+    .allCars a {width: 100%;}
+    /*purchase single page*/
+    .products-list {margin: auto; text-align: center;}
+    .subject-img picture img {
+        transform: translateY(-75px);
+    }
+    .contact-subject-overlay {left: 5%;}
+    body {overflow-x: hidden;}
+    .contact-subject-overlay h2 {font-size: 18px;}
+    .contact-subject-overlay h4 {font-size: 16px;}
+    /*single feature*/
+    .explain h4, ul li {font-size: 13px;}
+    .explain ul li span {font-size: 14px !important;}
+
+}
+/********************************************************************************/
+/*mobil medium*/
+@media only screen and (max-width: 376px)
+{
+    /*navbar*/
+    .logo {width: 70%}
+    /*filter cars*/
+    .filterCars .dropdown-toggle {font-size: 12px;}
+    .dropdown-toggle::after {margin-left: 15px;}
+    .filterCars .select-option select{padding:10px 10px !important; font-size :14px;}
+    .filterCars .allCars a {padding:10px 18px !important;}
+
+    /*purchase*/
+    .productTitle h3{
+        font-size: 22px;}
+    .productList li {font-size: 16px;}
+    .productDeatils ul  {padding: 10px 0;}
+    /*price overlay*/
+    .priceOverlay  {font-size: 0.6rem;}
+    /*offer overlay*/
+    .offerOverlay {font-size: 0.6rem;}
+    .formData .container {padding:  0 5px !important;}
+    /*contact us section*/
+    .contact-text i {font-size: 30px; margin-right: 15px;}
+    /*form page*/
+    .nav-item label svg {width: 45px; height: 45px;}
+    .contact-subject-overlay h2 {font-size: 16px;}
+    .contact-subject-overlay h4 {font-size: 14px;}
+
+}
+/********************************************************************************/
+/*mobil small*/
+@media only screen and (max-width: 321px)
+{
+    /*filter cars*/
+    .filterCars .allCars a {padding: 7px 23px !important; font-size: 12px;}
+    .filterCars .select-option select{padding:5px !important; font-size :12px;}
+    /*about us section*/
+    .social {width: 85%;}
+    .social ul li {padding-left: 10px;}
+    .social ul li:first-child {padding-left: 0;}
+    /*footer*/
+    .footerData ul li a {font-size: 12px;}
+}

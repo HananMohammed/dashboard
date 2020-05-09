@@ -1,0 +1,11 @@
+[10-Feb-2020 09:56:21 UTC] PHP Fatal error:  Cannot declare class CreateFruitsTable, because the name is already in use in /home/jqjk9sbm44z5/public_html/ac/database/migrations/2020_02_10_190655_create_fruits_table.php on line 47
+[10-Feb-2020 09:57:27 UTC] PHP Fatal error:  Cannot declare class CreateFruitsTable, because the name is already in use in /home/jqjk9sbm44z5/public_html/ac/database/migrations/2020_02_10_190655_create_fruits_table.php on line 47
+[10-Feb-2020 10:10:00 UTC] PHP Fatal error:  Cannot declare class CreateFruitsTable, because the name is already in use in /home/jqjk9sbm44z5/public_html/ac/database/migrations/2020_02_10_190655_create_fruits_table.php on line 62
+[10-Feb-2020 10:14:35 UTC] PHP Fatal error:  Cannot declare class CreateFruitsTable, because the name is already in use in /home/jqjk9sbm44z5/public_html/ac/database/migrations/2020_02_10_190655_create_fruits_table.php on line 69
+[10-Feb-2020 10:25:52 UTC] PHP Fatal error:  Cannot declare class CreateFruitsTable, because the name is already in use in /home/jqjk9sbm44z5/public_html/ac/database/migrations/2020_02_10_190655_create_fruits_table.php on line 68
+[12-Feb-2020 09:50:29 UTC] PHP Fatal error:  Cannot use [] for reading in /home/jqjk9sbm44z5/public_html/ac/app/repository/CrudRepository.php on line 127
+[12-Feb-2020 09:50:35 UTC] PHP Fatal error:  Cannot use [] for reading in /home/jqjk9sbm44z5/public_html/ac/app/repository/CrudRepository.php on line 127
+[12-Feb-2020 09:50:52 UTC] PHP Fatal error:  Cannot use [] for reading in /home/jqjk9sbm44z5/public_html/ac/app/repository/CrudRepository.php on line 127
+[12-Feb-2020 09:50:57 UTC] PHP Fatal error:  Cannot use [] for reading in /home/jqjk9sbm44z5/public_html/ac/app/repository/CrudRepository.php on line 127
+[12-Feb-2020 09:51:02 UTC] PHP Fatal error:  Cannot use [] for reading in /home/jqjk9sbm44z5/public_html/ac/app/repository/CrudRepository.php on line 127
+[12-Feb-2020 09:51:11 UTC] PHP Fatal error:  Cannot use [] for reading in /home/jqjk9sbm44z5/public_html/ac/app/repository/CrudRepository.php on line 127
